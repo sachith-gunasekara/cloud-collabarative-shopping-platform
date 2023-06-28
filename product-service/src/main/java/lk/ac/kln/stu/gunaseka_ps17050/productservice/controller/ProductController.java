@@ -2,6 +2,7 @@ package lk.ac.kln.stu.gunaseka_ps17050.productservice.controller;
 
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.dto.ProductRequest;
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.dto.ProductResponse;
+import lk.ac.kln.stu.gunaseka_ps17050.productservice.model.Product;
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -26,5 +27,17 @@ public class ProductController {
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getAllProducts(){
         return productService.getAllProducts();
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteProduct(@PathVariable Long id) {
+        productService.deleteProduct(id);
+    }
+
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public ProductResponse updateProduct(@PathVariable Long id, @RequestBody Product updatedProduct) {
+        return productService.updateProduct(id, updatedProduct);
     }
 }

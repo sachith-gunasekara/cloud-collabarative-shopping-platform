@@ -1,5 +1,6 @@
 package lk.ac.kln.stu.gunaseka_ps17050.productservice.service;
 
+import jakarta.ws.rs.NotFoundException;
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.dto.ProductRequest;
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.dto.ProductResponse;
 import lk.ac.kln.stu.gunaseka_ps17050.productservice.model.Product;
@@ -9,7 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -42,5 +42,22 @@ public class ProductService {
                 .description(product.getDescription())
                 .price(product.getPrice())
                 .build();
+    }
+
+    public void deleteProduct(Long id) {
+        productRepository.deleteById(id);
+    }
+
+    public ProductResponse updateProduct(Long id, Product updatedProduct){
+        return productRepository.findById(id)
+                .map(product -> {
+                    product.setName(updatedProduct.getName());
+                    product.setDescription(updatedProduct.getDescription());
+                    product.setPrice(updatedProduct.getPrice());
+
+                    return this.mapToProductResponse(productRepository.save(product));
+                })
+                .orElseThrow(() ->
+                        new NotFoundException("Product with id: " + id + " was not found."));
     }
 }
