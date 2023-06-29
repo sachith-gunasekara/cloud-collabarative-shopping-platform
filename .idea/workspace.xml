@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ecad32-3927-4974-8295-c29105533d71" name="Changes" comment="Fixed Test Class in product-service&#10;&#10;Test containers dependency issue resolved. This package is not used in this codebase.">
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/model/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/inventoryservice/service/InventoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/orderservice/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/dto/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/lk/ac/kln/stu/gunaseka_ps17050/productservice/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/sachi/IdeaProjects/cloud-collabarative-shopping-platform/product-service",
@@ -70,10 +72,48 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "b5d98b22221837104861960aa5e79183",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "162911b08ef35220dc3ab404cace1363",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Space Code Reviews" />
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="Merge Requests" />
+      <window_info id="Commit_Guest" />
+      <window_info id="Pull Requests" />
+      <window_info id="Persistence" sideWeight="0.49932975" side_tool="true" weight="0.24511719" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50067025" visible="true" weight="0.24511719" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" weight="0.24511719" />
+      <window_info anchor="bottom" id="Database Changes" weight="0.34987745" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.34987745" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="File Transfer" />
+      <window_info anchor="bottom" id="Dependency Checker" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3302696" />
+      <window_info anchor="bottom" id="Problems View" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3302696" />
+      <window_info active="true" anchor="bottom" id="Services" order="3" visible="true" weight="0.3302696" />
+      <window_info anchor="right" id="Endpoints" weight="0.32975262" />
+      <window_info anchor="right" id="Beans" />
+      <window_info anchor="right" id="Meet New UI" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32975262" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+    </layout>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sachi\IdeaProjects\cloud-collabarative-shopping-platform\product-service" />
@@ -81,6 +121,7 @@
       <recent name="C:\Users\sachi\IdeaProjects\cloud-collabarative-shopping-platform\inventory-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ac.kln.stu.gunaseka_ps17050.productservice.dto" />
       <recent name="lk.ac.kln.stu.gunaseka_ps17050.orderservice.dto" />
     </key>
   </component>
@@ -96,10 +137,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
-    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_2 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ac.kln.stu.discoveryserver.DiscoveryServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ac.kln.stu.discoveryserver.DiscoveryServerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ac.kln.stu.discoveryserver.*" />
@@ -140,7 +187,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
-        <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.rest-api_2 | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +207,10 @@
       <workItem from="1687631204911" duration="2312000" />
       <workItem from="1687665234485" duration="1149000" />
       <workItem from="1687669720572" duration="9640000" />
+      <workItem from="1687719658823" duration="11305000" />
+      <workItem from="1687757707044" duration="13662000" />
+      <workItem from="1687956580424" duration="14399000" />
+      <workItem from="1688011065576" duration="20969000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;&#10;Basic implementation of the following services:&#10;- inventory-service&#10;- order-service&#10;- product-service">
       <created>1687593852557</created>
@@ -183,5 +236,9 @@
     <MESSAGE value="Initial Commit&#10;&#10;Basic implementation of the following services:&#10;- inventory-service&#10;- order-service&#10;- product-service" />
     <MESSAGE value="Fixed Test Class in product-service&#10;&#10;Test containers dependency issue resolved. This package is not used in this codebase." />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed Test Class in product-service&#10;&#10;Test containers dependency issue resolved. This package is not used in this codebase." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
