@@ -40,4 +40,10 @@ public class ProductController {
     public ProductResponse updateProduct(@PathVariable Long id, @RequestBody Product updatedProduct) {
         return productService.updateProduct(id, updatedProduct);
     }
+
+    @GetMapping("/search")
+    @ResponseStatus(HttpStatus.OK)
+    public List<ProductResponse> searchProduct(@RequestParam String query){
+        return productService.searchProduct(query);
+    }
 }
