@@ -1,6 +1,9 @@
 package lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.service;
 
+import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.dto.InventoryRequest;
 import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.dto.InventoryResponse;
+import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.dto.InventoryUpdateRequest;
+import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.dto.InventoryUpdateResponse;
 import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.model.Inventory;
 import lk.ac.kln.stu.gunaseka_ps17050.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +18,15 @@ public class InventoryService {
 
     private final InventoryRepository inventoryRepository;
 
+    public void createInventory(InventoryRequest inventoryRequest) {
+        Inventory inventory = Inventory.builder()
+                .skuCode(inventoryRequest.getSkuCode())
+                .quantity(inventoryRequest.getQuantity())
+                .build();
+
+        inventoryRepository.save(inventory);
+    }
+
     @Transactional(readOnly = true)
     public List<InventoryResponse> isInStock(List<String> skuCode){
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
@@ -24,5 +36,19 @@ public class InventoryService {
                             .isInStock(inventory.getQuantity() > 0)
                             .build()
                 ).toList();
+    }
+
+    public InventoryUpdateResponse updateInventory(String skuCode, InventoryUpdateRequest inventoryUpdateRequest) {
+        Inventory inventory = inventoryRepository.findBySkuCode(skuCode);
+        inventory.setQuantity(inventoryUpdateRequest.getQuantity());
+
+        return this.mapToInventoryUpdateResponse(inventoryRepository.save(inventory));
+    }
+
+    private InventoryUpdateResponse mapToInventoryUpdateResponse(Inventory inventory){
+        return  InventoryUpdateResponse.builder()
+                .skuCode(inventory.getSkuCode())
+                .quantity(inventory.getQuantity())
+                .build();
     }
 }
