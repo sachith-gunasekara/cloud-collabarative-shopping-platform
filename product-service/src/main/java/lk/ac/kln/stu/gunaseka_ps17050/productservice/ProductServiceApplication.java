@@ -18,17 +18,14 @@ import java.util.concurrent.CompletableFuture;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@RequiredArgsConstructor
 public class ProductServiceApplication {
-
-	private final ProductService productService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 
 	@Bean
-	public CommandLineRunner loadData(ProductRepository productRepository){
+	public CommandLineRunner loadData(ProductService productService){
 		return args -> {
 			List<ProductRequest> productRequests = new ArrayList<>();
 
