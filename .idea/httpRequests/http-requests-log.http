@@ -1,3 +1,98 @@
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=login-app&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T130109.200.json
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/auth
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=login-app&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125831.404.json
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/auth
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=login-app&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125816.404.json
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/auth
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=cloud-collabarative-shopping-platform&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125657.400.html
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/aut
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=cloud-collabarative-shopping-platform&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125650.404.json
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/aut
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=cloud-collabarative-shopping-platform&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125644.404.json
+
+###
+
+POST http://localhost:8181/realms/cloud-collabarative-shopping-platform/protocol/openid-connect/auth
+Host: localhost:8181
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+client_id=cloud-collabarative-shopping-platform&username=sachithgunasekara&password=KeyPass%401998&grant_type=password
+
+<> 2023-06-30T125621.400.html
+
+###
+
 GET http://localhost:8083/api/product
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
